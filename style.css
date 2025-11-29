@@ -173,7 +173,7 @@ body {
 
 
 /* на телефоне — одна колонка */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .schedule {
       flex-direction: column;   /* колонки становятся вертикальными */
       gap: 20px;
@@ -182,4 +182,5 @@ body {
     .column {
       width: 100%;              /* колонка занимает всю ширину */
     }
+
   }
