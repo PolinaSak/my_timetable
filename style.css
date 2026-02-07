@@ -62,7 +62,7 @@ body {
   }
   
   
-  body.week-1n { background-color: #35D2AB; }
+  body.week-1n { background-color: #35d2abd7; }
   body.week-2n { background-color: #ccabda; }
   body.week-all { background-color: #43acf1; }
   
@@ -80,14 +80,14 @@ body {
   
   body.week-2n .lesson:hover,
   body.week-2n .lesson.past {
-    background-color: #ccabda80;
+    background-color: #ccabda57;
   }
   
   body.week-all .lesson:hover,
   body.week-all .lesson.past,
   body:not(.week-1n):not(.week-2n):not(.week-all) .lesson:hover,
   body:not(.week-1n):not(.week-2n):not(.week-all) .lesson.past {
-    background-color: #d0e6f7;
+    background-color: #d0e6f7b6;
   }
   
 /*------------------------------------------------*/  
@@ -143,7 +143,7 @@ body {
   
   /* Цвета для конкретных кнопок */
   .week-buttons button[data-week="1н"]{
-    background-color: #35D2AB;
+    background-color: #35d2abce;
     color: white;
   }
   
