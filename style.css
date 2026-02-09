@@ -113,6 +113,21 @@ body {
   margin-top: 2px;
 }
 
+/* По умолчанию скрываем варианты для конкретных недель, пока не нажата кнопка */
+.only-1n, .only-2n { display: none; }
+
+/* Когда выбрана 1 неделя: показываем '50', скрываем остальное */
+body.week-1n .only-1n { display: inline; }
+body.week-1n .only-all { display: none; }
+
+/* Когда выбрана 2 неделя: показываем '339', скрываем остальное */
+body.week-2n .only-2n { display: inline; }
+body.week-2n .only-all { display: none; }
+
+/* В режиме "Все" (или по умолчанию) показываем общий вариант '50 / 339' */
+body.week-all .only-all,
+body:not([class*="week-"]) .only-all { display: inline; }
+
 /* BUTTONS */
 .week-buttons {
     text-align: center;
