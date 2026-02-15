@@ -128,6 +128,8 @@ body.week-2n .only-all { display: none; }
 body.week-all .only-all,
 body:not([class*="week-"]) .only-all { display: inline; }
 
+
+
 /* BUTTONS */
 .week-buttons {
     text-align: center;
